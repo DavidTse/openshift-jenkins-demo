@@ -112,7 +112,7 @@ This demo by default uses the WildFly community image. You can use the JBoss EAP
 
   * Gogs: `gogs/gogs`
   * Nexus: `admin/admin123`
-  * SonarQube: `admin/admin`
+  * SonarQube: `admin/admin123 (admin, the first time you login)`
 
 * A Jenkins pipeline is pre-configured which clones Tasks application source code from Gogs (running on OpenShift), builds, deploys and promotes the result through the deployment pipeline. In the CI/CD project, click on _Builds_ and then _Pipelines_ to see the list of defined pipelines.
 
